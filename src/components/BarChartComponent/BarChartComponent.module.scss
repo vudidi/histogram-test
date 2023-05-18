@@ -1,0 +1,35 @@
+.chart {
+  padding: 40px;
+  border: 1px solid rgba(0, 10, 255, 0.1);
+  border-radius: 60px;
+  &__wrapper {
+    padding: 40px;
+    border-radius: 27px;
+    background-color: rgba(255, 0, 245, 0.05);
+  }
+  &__container {
+    margin: 0 0 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+  }
+  &__tooltip {
+    padding: 2px 8px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    background-color: #65ff8e;
+    border-radius: 6px;
+    &_hidden {
+      opacity: 0;
+    }
+    &_visible {
+      opacity: 1;
+    }
+  }
+}

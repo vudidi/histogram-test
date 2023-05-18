@@ -1,0 +1,32 @@
+.select {
+  position: relative;
+  width: 380px;
+  border-radius: 28px;
+  &__input {
+    font-size: 24px;
+  }
+  &__item {
+    &:hover {
+      color: #000aff;
+    }
+  }
+  &__icon {
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 24px;
+    right: 12px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 12px;
+    width: 24px;
+    &_type {
+      &_up {
+        background-image: url('../../assets/arrow-up.svg');
+      }
+      &_down {
+        background-image: url('../../assets/arrow-down.svg');
+      }
+    }
+  }
+}
